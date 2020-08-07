@@ -9,7 +9,13 @@ const styles = StyleSheet.create({
     topBar: {
         flexDirection: 'row',
         alignItems: 'center',
-         justifyContent: 'space-between',
+        justifyContent: 'space-between',
+    },
+
+    header:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
     },
 
     title: {
@@ -17,8 +23,7 @@ const styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 24,
         lineHeight: 32,
-        maxHeight: 160,
-        marginVertical: 40,
+        maxWidth: 160,
     },
 });
 
